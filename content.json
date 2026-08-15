@@ -2,6 +2,32 @@
   "version": 1,
   "items": [
     {
+      "id": "myyoda-promo",
+      "type": "video",
+      "title": "MyYoda 宣传片",
+      "description": "产品愿景与未来路线图抢先看",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-promo.mp4",
+        "mirrors": [],
+        "size": 9755400
+      }
+    },
+    {
+      "id": "myyoda-feature-guide",
+      "type": "video",
+      "title": "MyYoda 功能指南",
+      "description": "核心功能一览：Chat / Code / 项目与自动任务",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-feature-guide.mp4",
+        "mirrors": [],
+        "size": 19869830
+      }
+    },
+    {
       "id": "agent-essence-video",
       "type": "video",
       "title": "Agent 的本质到底是什么",
