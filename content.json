@@ -1,93 +1,115 @@
 {
-    "version": 1,
-    "items": [
-        {
-            "id": "pi-code-is-truth",
-            "type": "video",
-            "title": "Pi 作者见解：代码即真相",
-            "description": "代码不需要记忆系统，Bash 已足够——Pi 作者英文原声访谈（中英对照文字稿见「文字实录」）",
-            "version": "2026.8.17",
-            "publishedAt": "2026-08-17T00:00:00Z",
-            "video": {
-                "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v2/pi-code-is-truth.mp4",
-                "mirrors": [],
-                "size": 64033658
-            }
-        },
-        {
-            "id": "pi-code-is-truth-transcript",
-            "type": "article",
-            "title": "文字实录：代码即真相，Bash 已足够",
-            "description": "Pi 作者访谈中英对照文字稿",
-            "version": "2026.8.17",
-            "publishedAt": "2026-08-17T00:00:00Z",
-            "contentUrl": "https://raw.githubusercontent.com/GeoffBao/myyoda-content/main/articles/pi-code-is-truth-transcript.md"
-        },
-        {
-            "id": "myyoda-promo",
-            "type": "video",
-            "title": "MyYoda 宣传片",
-            "description": "产品愿景与未来路线图抢先看",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "video": {
-                "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-promo.mp4",
-                "mirrors": [],
-                "size": 9755400
-            }
-        },
-        {
-            "id": "myyoda-feature-guide",
-            "type": "video",
-            "title": "MyYoda 功能指南",
-            "description": "核心功能一览：Chat / Code / 项目与自动任务",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "video": {
-                "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-feature-guide.mp4",
-                "mirrors": [],
-                "size": 19869830
-            }
-        },
-        {
-            "id": "agent-essence-video",
-            "type": "video",
-            "title": "Agent 的本质到底是什么",
-            "description": "了解 AI Agent 的核心原理与工作方式",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "video": {
-                "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/agent-essence.mp4",
-                "mirrors": [],
-                "size": 10453843
-            }
-        },
-        {
-            "id": "quick-start-guide",
-            "type": "article",
-            "title": "快速上手指南",
-            "description": "三步开始你的第一个 Agent 会话",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "contentUrl": "https://raw.githubusercontent.com/GeoffBao/myyoda-content/main/articles/quick-start.md"
-        },
-        {
-            "id": "welcome-announcement",
-            "type": "announcement",
-            "title": "「发现」面板上线",
-            "description": "官方内容与社区讨论聚合入口",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "body": "**「发现」面板正式上线** 🎉\n\n在这里你可以：\n\n- 观看官方视频与教程\n- 浏览社区讨论（GitHub Discussions）\n- 提交反馈帮助我们改进"
-        },
-        {
-            "id": "myyoda-repo",
-            "type": "link",
-            "title": "MyYoda 开源仓库",
-            "description": "Star 与 Issue 都欢迎",
-            "version": "2026.8.1",
-            "publishedAt": "2026-08-15T00:00:00Z",
-            "url": "https://github.com/GeoffBao/MyYoda"
-        }
-    ]
+  "version": 1,
+  "items": [
+    {
+      "id": "anthropic-self-iterating-agent",
+      "type": "video",
+      "title": "Anthropic 工程师：搭建一个自我迭代的 Agent",
+      "description": "你不应该提示 Claude，你应该构建一个能够自我迭代的 Agent——Anthropic 工程师 Lamis Mukta 分享如何让 Agent 记住、修复错误并在每次运行中变得更强（45 分钟，配套文字解析见同源文章）",
+      "version": "2026.8.18",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v3/anthropic-self-iterating-agent.mp4",
+        "mirrors": [],
+        "size": 133941173
+      }
+    },
+    {
+      "id": "anthropic-self-iterating-agent-analysis",
+      "type": "article",
+      "title": "文字解析：搭建一个自我迭代的 Agent",
+      "description": "视频配套文字解析：记忆系统演进路径、Dreaming 离线整理机制与核心结论",
+      "version": "2026.8.18",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "contentUrl": "https://raw.githubusercontent.com/GeoffBao/myyoda-content/main/articles/anthropic-self-iterating-agent-analysis.md"
+    },
+    {
+      "id": "pi-code-is-truth",
+      "type": "video",
+      "title": "Pi 作者见解：代码即真相",
+      "description": "代码不需要记忆系统，Bash 已足够——Pi 作者英文原声访谈（中英对照文字稿见「文字实录」）",
+      "version": "2026.8.17",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v2/pi-code-is-truth.mp4",
+        "mirrors": [],
+        "size": 64033658
+      }
+    },
+    {
+      "id": "pi-code-is-truth-transcript",
+      "type": "article",
+      "title": "文字实录：代码即真相，Bash 已足够",
+      "description": "Pi 作者访谈中英对照文字稿",
+      "version": "2026.8.17",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "contentUrl": "https://raw.githubusercontent.com/GeoffBao/myyoda-content/main/articles/pi-code-is-truth-transcript.md"
+    },
+    {
+      "id": "myyoda-promo",
+      "type": "video",
+      "title": "MyYoda 宣传片",
+      "description": "产品愿景与未来路线图抢先看",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-promo.mp4",
+        "mirrors": [],
+        "size": 9755400
+      }
+    },
+    {
+      "id": "myyoda-feature-guide",
+      "type": "video",
+      "title": "MyYoda 功能指南",
+      "description": "核心功能一览：Chat / Code / 项目与自动任务",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/myyoda-feature-guide.mp4",
+        "mirrors": [],
+        "size": 19869830
+      }
+    },
+    {
+      "id": "agent-essence-video",
+      "type": "video",
+      "title": "Agent 的本质到底是什么",
+      "description": "了解 AI Agent 的核心原理与工作方式",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "video": {
+        "url": "https://github.com/GeoffBao/myyoda-content/releases/download/v1/agent-essence.mp4",
+        "mirrors": [],
+        "size": 10453843
+      }
+    },
+    {
+      "id": "quick-start-guide",
+      "type": "article",
+      "title": "快速上手指南",
+      "description": "三步开始你的第一个 Agent 会话",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "contentUrl": "https://raw.githubusercontent.com/GeoffBao/myyoda-content/main/articles/quick-start.md"
+    },
+    {
+      "id": "welcome-announcement",
+      "type": "announcement",
+      "title": "「发现」面板上线",
+      "description": "官方内容与社区讨论聚合入口",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "body": "**「发现」面板正式上线** 🎉\n\n在这里你可以：\n\n- 观看官方视频与教程\n- 浏览社区讨论（GitHub Discussions）\n- 提交反馈帮助我们改进"
+    },
+    {
+      "id": "myyoda-repo",
+      "type": "link",
+      "title": "MyYoda 开源仓库",
+      "description": "Star 与 Issue 都欢迎",
+      "version": "2026.8.1",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "url": "https://github.com/GeoffBao/MyYoda"
+    }
+  ]
 }
